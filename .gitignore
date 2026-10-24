@@ -1,0 +1,15 @@
+# Jangan simpan data rahasia
+.env
+
+# Jangan simpan file sesi Telegram
+sessions/
+*.session
+*.session-journal
+
+# Jangan simpan folder virtual environment
+venv/
+
+# Jangan simpan file log dan progress
+logs/
+.progress.json
+__pycache__/
